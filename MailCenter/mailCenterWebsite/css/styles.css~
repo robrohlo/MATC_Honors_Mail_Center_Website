@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(58, 58, 155);
+}
+
+.madisonCollege {
+    background-color: #070756;
+    border-color: #E7E7E7;
+}
+
+.container {
+    background-color: white;
+}
+
+.block {
+  height: -webkit-calc(100vh - 72px);
+  height: -moz-calc(100vh - 72px);
+  height: calc(100vh - 72px);
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+    background-color: #F5F5F5;
+}
+
+.nav-tabs {
+    margin-bottom: 0;
+}
+
+
+.list-group-item {
+    background-color: rgb(40, 40, 116);
+    color: whitesmoke;
+}
+
+.currentPage{
+    background-color: #070756;
+    color: whitesmoke;
+}
+
+
+.list-group-item:hover {
+    background-color:  #070756;
+    color: whitesmoke;
+}
+
+.list-group-item:focus {
+    background-color:  rgb(40, 40, 116);
+    color: whitesmoke;
+}
+
+.noUnderline {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.noUnderline:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.noUnderline:focus {
+    color: whitesmoke;
+    text-decoration: none;
+}
+

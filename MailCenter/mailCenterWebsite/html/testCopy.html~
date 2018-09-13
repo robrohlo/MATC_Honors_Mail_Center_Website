@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>Madison College Mail Center</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-light bg-faded">
+                <a>
+                    <img src="../images/madison-college-logo.png" alt="madisonCollegeLogo">
+                </a>
+
+                <div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Current Students</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact/Locations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Libraries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bookstore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Calendars</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Faculty/Staff</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <input class="form-control" type="text" placeholder="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div class="row nomargin">
+        <div class="col-sm-12">
+            <nav>
+                <div class="navbar madisonCollege">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link noUnderline" href="#">Why MATC?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link noUnderline" href="#">Careers, Programs, and Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link noUnderline" href="#">Continuing Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link noUnderline" href="#">Paying for College</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link noUnderline" href="#">Campus Life</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        </div>
+        <div class="col-sm-3">
+            
+                <ul class="list-group panel panel-default">
+                    <li class="list-group-item" style="background-color: rgb(40, 40, 116);">
+                        <h4 style="color: whitesmoke">Current Students</h4>
+                    </li>
+                    <li class="list-group-item currentPage">
+                        <a data-toggle="collapse" href="#collapse1" class="noUnderline">On-site Resources</a>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">Panel Body</div>
+                            <div class="panel-body">Panel Footer</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <a data-toggle="collapse" href="#collapse2" class="noUnderline">Support Services</a>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">Panel Body</div>
+                            <div class="panel-body">Panel Footer</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <a data-toggle="collapse" href="#collapse3" class="noUnderline">Student Involvement</a>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">Panel Body</div>
+                            <div class="panel-body">Panel Footer</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <a data-toggle="collapse" href="#collapse4" class="noUnderline">Health and Wellness</a>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">Panel Body</div>
+                            <div class="panel-body">Panel Footer</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <a data-toggle="collapse" href="#collapse5" class="noUnderline">Policies and Guidelines</a>
+                        <div id="collapse5" class="panel-collapse collapse">
+                            <div class="panel-body">Panel Body</div>
+                            <div class="panel-body">Panel Footer</div>
+                        </div>
+                    </li>
+                </ul>
+            
+        
+            <h2>Hours of Operation:</h2>
+            <p>Mail Center: 8:00am - 4:30pm</p>
+            <p>Shipping/Recieving: 6:00am -2:00pm
+            <h2>Contact Us</h2>
+            <h4>Mail Center</h4>
+            <p>Room Number</p>
+            <p>Kathy Waters - Manager</p>
+            <p>Phone Number</p>
+            <br />
+            <h4>Shipping/Receiving</h4>
+            <p>Room Number</p>
+            <p>Matt Something - Manager</p>
+            <p>Phone Number</p>
+            </div>    
+        <div class="col-sm-9">
+            <ul class="nav nav-pills">
+                <li class="active"><a data-toggle="pill" href="#home">Overview</a></li>
+                <li><a data-toggle="pill" href="#menu1">Services</a></li>
+                <li><a data-toggle="pill" href="#menu2">Deliveries/Pick Up</a></li>
+                <li><a data-toggle="pill" href="#menu3">FAQ</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                    <h3>Overview</h3>
+                    <p>The Madison College Mail Center and Shipping/Recieving bay is
+                    where all the mail is received, sorted, and shipped.</p>
+
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Folding/Inserting</li>
+                        <li>Metering</li>
+                        <li>Outbound Packages</li>
+                        <li>Inkjetting/Mailpiece Design</li>
+                        <li>Address Correction/Hygiene</li>
+                        <li>Assign/Manage Mailboxes</li>
+                        <li>Insured/Certified Mail</li>
+                    </ul>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                    <h3>Deliveries and Pick Up Times</h3>
+                    <h5>Monday - Friday</h5>
+                    <ul>
+                        <li>9:00am - Mail is recieved and sorted at the mail center</li>
+                        <li>9:30am - Mail is delivered to Foundation Building, South Madison Campus, and West Madison Campus</li>
+                        <li>10:00am - Mail is delivered to departments within Truax Main Campus Building</li>
+                        <li>11:30am - Mail is delivered to Health Building, Human Protective Services Building, Commercial Ave Campus,
+                            Downtown Campus, and Foundation Building</li>
+                        <li>1:00pm - Mail is delivered to departments within Truax Main Campus Building</li>
+                        <li>3:30pm - Outgoing USPS mail is picked up from the mail center.</li>
+                    </ul>
+                </div>
+                <div id="menu3" class="tab-pane fade">
+                    <h3>FAQ</h3>
+                    <p>Can I mail personal mail/packages?</p>
+                    <p>Can I have personal mail delivered to the college?</p>
+                    <p>I forgot my mailbox number/combination. What do I do?</p>
+                    <p>How do I get a mailbox as a new faculty/staff member?</p>
+                    <p>Can I use the mail center resources as a student?</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        <a>
+            <img src="../images/ask-madison-college.png" alt="ask" width="100%">
+        </a>
+        </div>
+        <div class="row">
+        <a>
+            <img src="../images/footer-image.png" alt="footer" width="100%">
+        </a>
+        </div>
+    </div>
+</body>
+</html>
